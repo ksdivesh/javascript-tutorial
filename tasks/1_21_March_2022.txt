@@ -1,0 +1,8 @@
+=> Implement toggle functionality with javascript
+* Create a button, button text should be "Toggle". 
+* Creage a paragraph, which contains some text. 
+* Implement show/hide functionality of the paragraph, when we click on the button means, if paragraph is shown, that button should hide the paragrah, and if the paragraph is hidden, then the button should show the paragraph. 
+
+
+For doing this task: 
+Create a new html file, and import bootstrap, and apply bootstrap class on the button, so that it looks nice. 
