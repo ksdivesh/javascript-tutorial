@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+      .div-class {
+        background-color: aquamarine;
+      }
+
+      .span-class {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-class">hello</div>
+    <span class="span-class">Span heldf</span>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      let btn = document.createElement("button");
+      btn.textContent = "Test Button";
+      btn.classList.add("btn", "btn-primary", "border-top");
+      //   document.body.appendChild(btn);
+
+      let spanTag = document.querySelector(".span-class");
+      console.log(spanTag.textContent);
+      spanTag.textContent = "I have changed span";
+      //   spanTag.style.color = "Yellow";
+      spanTag.classList.remove("span-class");
+    </script>
+  </body>
+</html>
